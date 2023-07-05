@@ -1,0 +1,47 @@
+.container {
+  height: 85%;
+  width: 30%;
+  display: grid;
+  grid-template-areas:
+    "result result result result"
+    "result result result result"
+    "clear clear back devide"
+    "row1 row1 row1 row1 "
+    "row2 row2 row2 row2 "
+    "row3 row3 row3 row3 "
+    "o o o equal ";
+}
+button {
+  border: 0.3px solid rgba(0, 0, 0, 0.1);
+  color: black;
+  font-size: 25px;
+  /* border: 0px; */
+}
+
+.result {
+  grid-area: result;
+}
+
+.clear {
+  grid-area: clear;
+}
+
+.back {
+  grid-area: back;
+}
+
+.devide {
+  grid-area: devide;
+}
+
+.zeroButton {
+  grid-area: o;
+}
+
+.equalButton {
+  grid-area: equal;
+}
+
+.operators {
+  background-color: orange;
+}
